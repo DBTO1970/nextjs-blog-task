@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Learn along with Don Barto Jr, Junior Web Developer"
         />
         <meta
           property="og:image"
@@ -30,8 +30,8 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
+              src="/images/logo.svg"
+              className={utilStyles.borderNone}
               height={144}
               width={144}
               alt={name}
@@ -64,7 +64,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Back to home</a>
+            <a>&larr; Back to home</a>
           </Link>
         </div>
       )}

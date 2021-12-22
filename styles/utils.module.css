@@ -28,6 +28,11 @@
   .borderCircle {
     border-radius: 9999px;
   }
+
+  .borderNone {
+    border-radius: 5px;
+   
+}
   
   .colorInherit {
     color: inherit;
